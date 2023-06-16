@@ -56,7 +56,6 @@ const Search: FC<props> = () => {
                                 placeholder='Select the category'
                             />
                         </View>
-
                         <View style={{ marginBottom: pixelSizeVertical(10) }}>
                             <Button title="Search" onPress={handleSubmit} />
                         </View>
@@ -67,15 +66,12 @@ const Search: FC<props> = () => {
     )
 }
 
-
 const styles = StyleSheet.create({
     container: {
         padding: heightPixel(8),
         backgroundColor: AppStyles.color.bglight,
         borderRadius: heightPixel(5)
-
     }
-
 })
 
 export default Search
