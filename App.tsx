@@ -12,8 +12,6 @@ const App: FC = () => {
       <StatusBar hidden />
       <Navigation />
     </View>
-
   )
-
 }
 export default App
