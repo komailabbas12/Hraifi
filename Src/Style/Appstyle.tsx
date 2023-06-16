@@ -7,6 +7,7 @@ const {
 
 const widthBaseScale = SCREEN_WIDTH / 414;
 const heightBaseScale = SCREEN_HEIGHT / 896;
+
 export const AppStyles = {
     color: {
         primarycolor: "#022278",
@@ -49,7 +50,6 @@ export const IconImages = {
     staticbanner: require('../Assets/Images/Logo/repl.png'),
 }
 
-
 //for width  pixel
 const widthPixel = (size: number) => {
     return normalize(size, 'width');
@@ -63,10 +63,12 @@ const heightPixel = (size: number) => {
 const pixelSizeVertical = (size: number) => {
     return heightPixel(size);
 };
+
 //for Margin and Padding horizontal pixel
 const pixelSizeHorizontal = (size: number) => {
     return widthPixel(size);
 };
+
 export {
     heightPixel, pixelSizeHorizontal, pixelSizeVertical, widthPixel
 };

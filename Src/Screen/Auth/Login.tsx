@@ -8,7 +8,6 @@ import ButtonComp from './Component/ButtonComp'
 import CustomTextinput from './Component/CustomTextinput'
 import { LoginvalidationSchema } from './ValidationSchema/Validation'
 
-
 interface props {
   show: boolean,
   closeModal: () => void
@@ -17,8 +16,6 @@ interface props {
 }
 
 const Login: FC<props> = ({ show, closeModal, opensignup, openLogin }) => {
-
-
   const handleLogin = (values: { email: string; password: string }) => {
     // Handle login logic
     console.log(values);

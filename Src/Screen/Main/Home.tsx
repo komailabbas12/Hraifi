@@ -24,7 +24,6 @@ const data = [
     },
 ]
 
-
 const Home: FC = () => {
     const [login, setlogin] = useState(false)
     const [signup, setsignup] = useState(false)
@@ -39,7 +38,6 @@ const Home: FC = () => {
                     <View style={{ marginTop: pixelSizeVertical(35) }}>
                         <Search />
                     </View>
-
                     <View style={styles.staticBanner}>
                         <View style={{ position: "absolute", top: 0, right: 0, left: 0, bottom: 0 }}>
                             <CardAnimation bgColor={AppStyles.color.secondarycolor} angle1='0deg' angle2='10deg' />

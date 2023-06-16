@@ -17,7 +17,6 @@ interface props {
     opensignup: () => void
 }
 
-
 const SignUp: FC<props> = ({ show, closeModal, opensignup, openLogin }) => {
     const handlesignUp = (values: object) => {
         console.log("Sign Up Values", values);
@@ -87,7 +86,6 @@ const SignUp: FC<props> = ({ show, closeModal, opensignup, openLogin }) => {
                                                 autoCapitalize="none"
                                             />
                                         </View>
-                                        {/* select the city */}
                                         <View style={{ zIndex: 999999 }}>
                                             <DropDown
                                                 name='city'
