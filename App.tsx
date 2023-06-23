@@ -1,5 +1,5 @@
 import React, { FC, useEffect } from 'react'
-import RNBootSplash from "react-native-bootsplash";
+import RNBootSplash from "react-native-bootsplash"
 import { View, StatusBar } from 'react-native'
 import Navigation from './Src/Navigation.js'
 
