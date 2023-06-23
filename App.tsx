@@ -9,7 +9,7 @@ const App: FC = () => {
   }, [])
   return (
     <View style={{ flex: 1 }}>
-      <StatusBar hidden />
+      <StatusBar  hidden />   
       <Navigation />
     </View>
   )
